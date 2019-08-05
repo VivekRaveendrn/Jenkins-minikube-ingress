@@ -15,11 +15,14 @@
 
 #### Things done in this project ####
 * Created custom Docker image
+* Created namespace.yaml for namespace creation in k8s
 * Created deployment.yaml, services.yaml and ingress.yaml
 * Configured ingress
 * Created Helm charts
 * Created custom namespace
 * Deploy into the namespace
+* Shell script to wipe out your ns and chart
+* Shell script for chart deployment
 
 #### Helm Handy Commands : ####
 helm ls --all jenkins (List your Helm chart "jenkins")
@@ -28,3 +31,4 @@ helm del --purge jenkins (only if you required)
 ### Note ###
 * You can create as many slaves as required
 * If required, login to the console and create number slaves
+* Download and edit as per your requirement
