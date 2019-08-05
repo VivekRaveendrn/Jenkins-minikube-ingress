@@ -16,7 +16,10 @@
 #### Things done in this project ####
 * Created custom Docker image
 * Created deployment.yaml, services.yaml and ingress.yaml
+* Configured ingress
 * Created Helm charts
+* Created custom namespace
+* Deploy into the namespace
 
 #### Helm Handy Commands : ####
 helm ls --all jenkins (List your Helm chart "jenkins")
