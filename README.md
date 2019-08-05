@@ -21,3 +21,7 @@
 #### Helm Handy Commands : ####
 helm ls --all jenkins (List your Helm chart "jenkins")
 helm del --purge jenkins (only if you required)
+
+### Note ###
+* You can create as many slaves as required
+* If required, login to the console and create number slaves
