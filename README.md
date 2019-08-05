@@ -12,7 +12,13 @@
    * $ helm install --name jenkins ./AHeroJenkins --namespace=jenkins
 * If required, you can also deploy to default namespace using
    * $ helm install --name jenkins ./AHeroJenkins
-
+* To use jenkins-deployment-creator.sh
+    * chmod +x jenkins-deployment-creator.sh
+    * ./jenkins-deployment-creator.sh jenkins jenkins
+* To use jenkins-deployment-terminator.sh
+    * chmod +x jenkins-deployment-terminator.sh
+    * ./jenkins-deployment-creator.sh jenkins jenkins
+    
 #### Things done in this project ####
 * Created custom Docker image
 * Created namespace.yaml for namespace creation in k8s
