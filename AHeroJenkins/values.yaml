@@ -1,0 +1,24 @@
+# Default values for AHeroJenkins.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 2
+name: jenkins
+app: jenkins
+httpport: 8080
+jnlpport: 50000
+image:
+  repository: vivekraveendran/jenkins
+  tag: "2.0"
+service:
+  app: jenkins
+  name: jenkins
+  type: NodePort
+  port: 8080
+  targetPort: 8080
+ingress:
+  app: jenkins
+  serviceName: jenkins
+  servicePort: 8080
+  name: jenkins
+
