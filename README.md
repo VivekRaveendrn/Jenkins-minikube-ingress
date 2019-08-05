@@ -31,8 +31,9 @@
 * Shell script for chart deployment
 
 #### Helm Handy Commands : ####
-helm ls --all jenkins (List your Helm chart "jenkins")
-helm del --purge jenkins (only if you required)
+* helm ls in your cluster(list all charts)
+* helm ls --all jenkins (List your Helm chart "jenkins")
+* helm del --purge jenkins (only if you required)
 
 ### Note ###
 * You can create as many slaves as required
